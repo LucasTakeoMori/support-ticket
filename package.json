@@ -1,0 +1,13 @@
+{
+  "name": "support-ticket",
+  "version": "1.0.0",
+  "description": "Support Ticket Management API",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/server.js"
+  },
+  "author": "Lucas Takeo Mori",
+  "license": "ISC"
+}
