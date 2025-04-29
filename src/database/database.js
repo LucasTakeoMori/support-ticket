@@ -15,7 +15,19 @@ export class Database {
       })
   }
 
-  #persist(){
+  #persist() {
     fs.writeFile(DATABASE_PATH, JSON.stringify(this.#database))
+  }
+
+  insert(table, data) {
+    if (Array.isArray(this.#database[table])) {
+      this.#database[table].push(data)
+    } else {
+      this.#database[table] = [data]
+    }
+
+    this.#persist()
+
+    return data
   }
 }
