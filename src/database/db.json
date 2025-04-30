@@ -1,1 +1,40 @@
-{}
+{
+  "ticket": [
+    {
+      "id": "91901a83-50e2-4a0c-a66b-f181446d9db8",
+      "equipament": "teste 01",
+      "description": "teste",
+      "user_name": "usuario teste",
+      "status": "open",
+      "created_at": "2025-04-29T06:36:53.371Z",
+      "updated_at": "2025-04-29T06:36:53.371Z"
+    },
+    {
+      "id": "d5c464e0-c768-4a0d-8dda-9b6d79af8a3e",
+      "equipament": "teste 01",
+      "description": "teste",
+      "user_name": "usuario teste",
+      "status": "open",
+      "created_at": "2025-04-29T06:41:09.589Z",
+      "updated_at": "2025-04-29T06:41:09.589Z"
+    },
+    {
+      "id": "6b004345-d564-4928-92a3-38aa4153f3d1",
+      "equipament": "teste 01",
+      "description": "teste",
+      "user_name": "usuario teste",
+      "status": "open",
+      "created_at": "2025-04-29T06:48:19.690Z",
+      "updated_at": "2025-04-29T06:48:19.690Z"
+    },
+    {
+      "id": "02da9166-a75e-4e38-9f2a-35e9256eaae6",
+      "equipament": "teste 01",
+      "description": "teste",
+      "user_name": "usuario teste",
+      "status": "open",
+      "created_at": "2025-04-30T15:40:30.272Z",
+      "updated_at": "2025-04-30T15:40:30.272Z"
+    }
+  ]
+}

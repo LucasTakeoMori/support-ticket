@@ -27,6 +27,11 @@ export class Database {
     }
 
     this.#persist()
+    // return data
+  }
+
+  select(table) {
+    let data = this.#database[table] ?? []
 
     return data
   }
