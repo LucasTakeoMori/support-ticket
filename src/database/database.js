@@ -27,6 +27,7 @@ export class Database {
     }
 
     this.#persist()
+
     // return data
   }
 
